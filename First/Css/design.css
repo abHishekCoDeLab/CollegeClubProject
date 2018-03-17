@@ -1,0 +1,90 @@
+.navbar{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 95px;
+    background-color: #3E5D80;
+    opacity: 0.8;
+    border-radius: 0;
+    border: 0px;
+    padding-top: 20px;
+}
+
+.brand{
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.brand:hover{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+    font-display: block;
+    font-style: normal;
+    font-size: 1.3em;
+    font-family:'Roboto Condensed', sans-serif;
+    margin-right: 10px;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    color: #000000;
+}
+
+.btn{
+    min-width: 90px;
+    min-height: 40px;
+    background: #00000000;
+    margin-left: 30px;
+    color: white;
+    border: 1.5px white solid;
+}
+
+.btn:hover{
+    background: white;
+}
+
+
+.find{
+    font-family: 'Great Vibes', cursive;
+    color: #ffffff;
+    font-size: 5em;
+}
+
+.Appart{
+   font-family: 'Crimson Text', serif;
+    margin-top: -40px;
+    color: #ffffff;
+}
+
+.for{
+    padding-top: 30px;
+}
+
+.moreList{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.btn-default1{
+    border-radius: 40px 40px 40px 40px;
+    border: 2px #95BADF solid;
+    min-width: 250px;
+    min-height: 60px;
+    background: #00000000;
+    color: #95BADF;
+}
+
+.btn-default1:hover{
+    background-color: #95BADF;
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+
+

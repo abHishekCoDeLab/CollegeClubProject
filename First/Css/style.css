@@ -4,23 +4,21 @@
    background-image:url("../Image/hero_small.jpg");
    background-repeat:no-repeat;
    background-size:cover;
+    position: relative;
 }
 
 .firstPageCenter{
-    padding-top:150px;
-    padding-bottom:200px;
+    padding-top:250px;
 }
 
 .search{
-    background-color: aqua;
+    background-color:#bfd9f2;
     opacity: 0.5;
-    height: 80px;
+    height: 100px;
     min-width: 100%;
-    padding-left: 200px;
-    padding-top: 20px;
     margin-bottom: 100px;
+    min-width: 100%;
 }
-
 
 .item{
     margin-top: 40px;
@@ -56,6 +54,20 @@
 }
 
 
+.descHead{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    color: #595959;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Amita', cursive;
+}
+
 
 .buttonImage{
     margin-top: 10px;
@@ -63,13 +75,8 @@
     height: 40px;
 }
 
-.moreList{
-    margin-top: 120px;
-    margin-bottom: 80px;
-}
-
-.col-md-3{
-    border: 0.5px solid;
+.col-md-3:hover{
+    border: 0.5px solid #cccccc;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -78,41 +85,46 @@
      margin-right: 80px;
 }
 
-.btn-default1{
-    border-radius: 40px 40px 40px 40px;
-    border: 0.5px red solid;
-    min-width: 250px;
-    min-height: 60px;
-    background: #00000000;
-}
+
 
 .footer{
-    background-color: aqua;
+    background-color: #95BADF;
     min-width: 100%;
-    min-height: 440px;
+    min-height: 420px;
     margin-top: 20px;
 }
 
 .aboutFooter{
     margin-right: 50px;
     margin-top: 110px;
-    line-height: 1.5em;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    color: #ffffff;
+   font-family: 'IBM Plex Sans', sans-serif;
 }
 
 table{
-    margin-top: 100px;
+    margin-top: 80px;
     text-decoration: none;
     width: 100%;
     height: 100%;
 }
 
 tr{
-    height: 30px;
+    height: 40px;
 }
 
 td{
     padding-left: 100px;
     margin-top: 40px;
+    color: #ffffff;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+
+td:hover{
+    color: #808080;
 }
 
 .icon{
@@ -120,11 +132,13 @@ td{
 }
  
 .copyRight{
-   margin-top: 40px; 
+   margin-top: 30px; 
+    color: #808080;
+    font-size: 1.1em;
 }
 
 hr{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 100px;
     margin-right: 100px;
 }

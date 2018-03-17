@@ -8,20 +8,37 @@
 	
 
 	<title>La Casa | Way To Dream Home</title>
-	
+
 <!-- 	Abhishekfb@123
 	qwertyuiop1234567890 -->
 
 	<link rel="stylesheet" href="Css/style.css">
+	<link rel="stylesheet" href="Css/design.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Amita|Crimson+Text|Dancing+Script|Great+Vibes|IBM+Plex+Sans|Merriweather|Oxygen|Pacifico|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+	
+	<!-- font-family: 'IBM Plex Sans', sans-serif;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-family: 'Roboto Slab', serif;
+	    font-family: 'Merriweather', serif;
+	    font-family: 'Oxygen', sans-serif;
+	    font-family: 'Crimson Text', serif;
+	    font-family: 'Amita', cursive;
+	    font-family: 'Pacifico', cursive;
+	    font-family: 'Dancing Script', cursive;
+	    font-family: 'Great Vibes', cursive; -->
+	    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
 	
 </head>
 
 <body>
 
-    <div class="container-fluid firstPage">
-        <div class="container">
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
+    <div class="container-fluid firstPage img-responsive">
+        <div>
+            <nav class="navbar navbar-inverse">
+              <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#"><img src="Image/logo.png" alt=""></a>
+                  <a class="brand" href="#"><b>La Casa</b></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,125 +67,152 @@
         
         <center>
             <div class="firstPageCenter">
-                <p>Find Your Dream Home</p>
-                <p>Appartement - Houses - Mansion</p>
+                <p class="find">Find Your Dream Home</p>
+                <p class="Appart">Appartement - Houses - Mansion</p>
             </div>
         </center>
     </div>
+    
+    <div  data-parallax="scroll">
 
-    <div class="row search">
-      <div class="col-md-11">
-          <p>What Are You Looking For?</p>
-      </div>
-      <div class="col-md-1">
-          <img src="Image/advanced_search_inactive.png" alt="" class=".imgeSearch">
-      </div>
+        <div class="row search wrapper">
+          <div class="col-md-11">
+              <form action="#" method="post">
+                    <input type="text" name="search" placeholder="What are you looking for ?" class="" 
+                            STYLE="color: #00ff00; 
+                            width: 100%;
+                            padding-left: 100px;
+                            height: 100px;
+                            font-family: 'Oxygen', sans-serif;
+                            font-weight: bold; 
+                            background: #bfd9f2;    
+                            font-size: 2em;" />    
+              </form>
+          </div>
+
+
+          <div class="col-md-1 for">
+              <img src="Image/advanced_search_active.png" alt="" class=".imgeSearch">
+          </div>
+        </div>
+
+
+        <div class="row item ImageRow ">
+         <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic1">
+                   <button class="btn btn-default buttonImage" type="submit">$2500</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic2">
+                   <button class="btn btn-default buttonImage" type="submit">$1000</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic3">
+                   <button class="btn btn-default buttonImage" type="submit">$500</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row item ImageRow">
+         <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic1">
+                   <button class="btn btn-default buttonImage" type="submit">$2500</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic2">
+                   <button class="btn btn-default buttonImage" type="submit">$1000</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic3">
+                   <button class="btn btn-default buttonImage" type="submit">$500</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row item ImageRow">
+         <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic1">
+                   <button class="btn btn-default buttonImage" type="submit">$2500</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic2">
+                   <button class="btn btn-default buttonImage" type="submit">$1000</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3">
+            <div>
+               <div class="backItemPic3">
+                   <button class="btn btn-default buttonImage" type="submit">$500</button>
+               </div>
+                <p class="descHead">Fuisque dictum tortor at purus libero</p>
+                <p class="desc">2 kitchens, 2 bed, 2 bath... (288ftsq)</p>
+            </div>
+          </div>
+        </div>
+
     </div>
     
-    <div class="row item ImageRow">
-     <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic1">
-               <button class="btn btn-default buttonImage" type="submit">$2500</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic2">
-               <button class="btn btn-default buttonImage" type="submit">$1000</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic3">
-               <button class="btn btn-default buttonImage" type="submit">$500</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-    </div>
     
-    <div class="row item ImageRow">
-     <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic1">
-               <button class="btn btn-default buttonImage" type="submit">$2500</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic2">
-               <button class="btn btn-default buttonImage" type="submit">$1000</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic3">
-               <button class="btn btn-default buttonImage" type="submit">$500</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-    </div>
     
-    <div class="row item ImageRow">
-     <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic1">
-               <button class="btn btn-default buttonImage" type="submit">$2500</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic2">
-               <button class="btn btn-default buttonImage" type="submit">$1000</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <div>
-           <div class="backItemPic3">
-               <button class="btn btn-default buttonImage" type="submit">$500</button>
-           </div>
-            <h2><a href="" id="link">Cameras</a></h2>
-            <em>choose among the best available in the world</em>
-        </div>
-      </div>
-    </div>
-    
+
     <div>
        <center>
-            <button class="btn btn-default1 moreList" type="submit">VIEW MORE LISTING</button>
+            <button class="btn-default1 moreList" type="submit">VIEW MORE LISTING</button>
        </center>
     </div>
+    
+    
+    
     
     <div class="footer">
        <div class="row">
@@ -229,15 +273,17 @@
            
         <center>
            <hr>
-            <p class="copyRight">Copyright 2015 Pixelhint.com.All Right Reserved</p>
+            <p class="copyRight">Copyright &#xa9; 2018 Abhishek.All Right Reserved</p>
         </center>
-       
     </div>
     
     
 
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	
 
 	<script>
 	</script>
