@@ -1,0 +1,131 @@
+.firstPage{
+   height:764px;
+   width:100%;
+   background-image:url("../Image/hero_small.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
+.firstPageCenter{
+    padding-top:150px;
+    padding-bottom:200px;
+}
+
+.search{
+    background-color: aqua;
+    opacity: 0.5;
+    height: 80px;
+    min-width: 100%;
+    padding-left: 200px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.item{
+    margin-top: 40px;
+    /*  margin-left: 100px;
+         margin-right: 100px;  */
+}
+
+.backItemPic1{
+    background-image: url("../Image/property_1.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backItemPic2{
+    background-image: url("../Image/property_2.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backItemPic3{
+    background-image: url("../Image/property_3.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.buttonImage{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.moreList{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.col-md-3{
+    border: 0.5px solid;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ImageRow{
+     margin-right: 80px;
+}
+
+.btn-default1{
+    border-radius: 40px 40px 40px 40px;
+    border: 0.5px red solid;
+    min-width: 250px;
+    min-height: 60px;
+    background: #00000000;
+}
+
+.footer{
+    background-color: aqua;
+    min-width: 100%;
+    min-height: 440px;
+    margin-top: 20px;
+}
+
+.aboutFooter{
+    margin-right: 50px;
+    margin-top: 110px;
+    line-height: 1.5em;
+}
+
+table{
+    margin-top: 100px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+tr{
+    height: 30px;
+}
+
+td{
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+.icon{
+    margin-top: 40px;
+}
+ 
+.copyRight{
+   margin-top: 40px; 
+}
+
+hr{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
