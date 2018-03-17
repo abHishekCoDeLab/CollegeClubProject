@@ -1,11 +1,13 @@
+
 .firstPage{
    height:764px;
    width:100%;
-   background-image:url("../Image/hero_small.jpg");
+   background-image:url("../Image/pexels-photo-186077.jpeg");
    background-repeat:no-repeat;
    background-size:cover;
-    position: relative;
+   position: relative;
 }
+
 
 .firstPageCenter{
     padding-top:250px;
@@ -85,8 +87,6 @@
      margin-right: 80px;
 }
 
-
-
 .footer{
     background-color: #95BADF;
     min-width: 100%;
@@ -143,3 +143,6 @@ hr{
     margin-right: 100px;
 }
 
+.margUp{
+    margin-top: -10px;
+}
